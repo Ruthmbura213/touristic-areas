@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <ment charset="UTF-8">
+        <ment name="viewport" content="width=device-width,initial-scale=1.0">
+            <title>Best Places to visit in Rajasthan</title>
+
+            <!--Fonts used in style.css-->
+            <link rel="preconnect" href="
+            <link
+            href=
+            rel="styesheet">
+
+            <!--our CSS file-->
+            <lint rel="styesheet" href="style .css">
+
+             <!--our javascript file ("defer" waits for the page to load first)-->
+ </head> 
+ <body>
+    <header id="top">
+        <h1>Best places to visit in Rajasthan</h1>
+        <p>Acollection of some of the most beautiful destinations in Rajasthan</p>
+    </header>
+
+    <!--Navigation bar: each link jump to a place on tis page -->
+    <nav>
+        <a href="#jaipur">jaipur</a>
+        <a href="#jaisalme">jaisalme</a>
+        <a href="#udaipur">udaipur</a>
+        <a href="#jodhpur">jodhpur</a>
+        <a href="#ranthambore">ranthambore</a>
+        <a href="#pushkar">pushkar</a>
+        <a href="#video">video</a>
+    </nav>
+    <main>
+        <h2>Popular Tourist Attractions</h2>
+        <p>Click any picture to enlarg it.</p>
+
+        <figure id="jaipur">
+            <img class="place" scr="hawa-mahal.jpg"
+            alt="Front view of Hawa Mahal in jaipur"
+            width="600"height="400">
+            <figcaption>hawa-mahal, jaipur - famous for its unique honeycomb desing.</figcaption>
+        </figure>
+        <figure id="jaisalmer"
+        <img class="place"src=jaisalmer-fort.jpg"
+        alt="Golden sandstone jaisalmer Fort during sunset"
+        width="600" height="400">
+        <figcaption>Jaislmer Fort - one of the largest living fort in the world.</figcaption>
+    </figure>
+
+    <figure id="udaipur">
+        <img class="place" scr="udaipur-lake.jpg"
+        alt="Lake Pichola with city place in udaipur"
+        width="600" height="400">
+        <figcaption>udaipur - known as the city of lakes.</figcaption>
+    </figure>
+
+    <figure id="jodhpur">
+        <img class="place" src="mehrangarh-fort.jpg"
+        ait="mehrangarh Fort ovrelooking jodhpur city"
+        width="600" height="400">
+        <figcaption>mehrangarh fort, jodhpur - Tower above the Blue city.</figcaption>
+    </figure>
+
+    <figure id="ranthambore">
+        <img class="place" scr="ranthambore.jpg"
+        alt="Royal Bendal tiger walking in Ranthambore National Park"
+        width="600" height="400">
+        <figcaption>Ranthambore National Park - A famous places to spot tigers.</figcaption>
+    </figure>
+    <figure id="pushkar">
+        <img class="place"scr="pushkar.jpg"
+        ait="pushkar Lake surrounded by temples and ghats"
+        width="600" height="400">
+        <figcaption>pushkar -A holy lake surrounded by temples and ghats.</figcaption>
+    </figure>
+    
+    <h2>Decorative Image</h2>
+
+    <!--Empty alt because this image is only decoration-->
+    <img scr="rajasthan-travel-poster.jpg" ait=""width="600" height="200">
+
+    <h2 id="video">Rajasthan Tourist video</h2>
+
+    <iframe
+    width="560"
+    height="315"
+
+    scr=""
+    title=""
+    frameborder=""
+    allow=""
+    referrerpolicy=""
+</iframe>
+    </main>
+    <footer>
+        <p>&copy; 2026 Rajasthan Tourist Gallery. ALL Rights Reserved</p>
+    </footer>
+
+    <!--Back to top button (Javascript show it when yuo scroll down)-->
+    <button id="top-btn" title="Back to top"hidden>⬆️ Top</button>
+
+    <!--click-to-enlarge box (hidden until a picture is clicked) -->
+    <div id="lighbox" class="lightbox" hidden>
+        <button id="close-btn" title="close"✖️ close</button>
+            <img id="lighbox-img" scr="" alt="">
+            <p id="lighbox-caption"></p>
+            <button id="next-btn">Next ➡️</button>
+    </div>
+  </body>
+</html>
